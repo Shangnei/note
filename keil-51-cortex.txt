@@ -1,0 +1,3 @@
+keil 编译出bin文件
+	在option-->user-->run1 after build
+	$K\ARM\ARMCC\bin\fromelf.exe --bin --output=@L.bin !L
