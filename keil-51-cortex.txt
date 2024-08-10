@@ -1,3 +1,9 @@
 keil 编译出bin文件
 	在option-->user-->run1 after build
 	$K\ARM\ARMCC\bin\fromelf.exe --bin --output=@L.bin !L
+hex转bin文件：
+	直接使用jFlash,另存，为bin就ok啦。
+hex合并文件：
+	直接可以用jFlash,打开然后合并，merge
+keil使用device文件：
+	在keil芯片选择上面有个device，打开，加上你需要的device库
